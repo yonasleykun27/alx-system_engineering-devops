@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH=/bin::::/home:/usr:::::/home/me
+echo $PATH | tr ":" "\n" | wc -l
